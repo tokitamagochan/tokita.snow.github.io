@@ -1,0 +1,313 @@
+body {
+    width:100%;
+    
+    
+}
+
+
+
+/*-----------------------------ヘッダー-----------------------------*/
+
+
+header{
+ width: 1280px;
+ height: 60px;     
+  
+ display: flex;
+}
+
+.header-left {
+    font-size: 40px;
+    letter-spacing: 10px;
+    flex-direction: row;
+    margin-left: 111px;
+}
+.header-right {
+    width: 224px;
+   
+}
+.header-right-01 {
+    height: 30px;
+    border: 1px solid;
+    padding: 5px 20px;
+    position: relative;
+    left: 300px;
+    top: 15px;
+}   
+    
+.header-right-02 {
+    height: 30px;
+    border: 1px solid;
+    padding: 5px 15px;
+    position: relative;
+    top: 15px;
+    left: 294px;
+    margin: 0 17px;
+    
+} 
+a {                           /*aタグに対して指定すると下線が消える！*/
+    text-decoration: none; 
+}
+/*----------------------------メイン------------------------------*/
+main {
+    width: 1280px;
+    height:1500px; 
+
+    /*display: none;*/
+    
+
+}
+/*コンテンツ１　コンテンツ１　コンテンツ１　*/
+.main-img {
+    width: 1280px;
+    height: 600px;
+}
+
+
+/*コンテンツ２　コンテンツ２　コンテンツ２*/
+.contents02 {
+    background-color: ghostwhite;
+    height: 800px;
+}
+.h1-01 {
+    font-size: 25px;
+    margin-left: 530px;
+    margin-top: 0;
+}
+.p-01 {
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    margin: 0 0 0 620px;
+}
+.snow-01 {
+    opacity: 0.7;
+    color: blue;
+}
+span {
+    color: red;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.img-bottom01 {
+    width: 450px;
+    height: 300px;
+    /* text-align: center; */
+    display: block;
+    position: relative;
+    left: 445px;
+}
+.img-bottom02 {
+    width: 350px;
+    height: 225px;
+    margin: 50px 00px 30px 270px;
+    
+}
+.img-bottom03 {
+    width: 350px;
+    height: 225px;
+    margin: 0 0 30px 100px;
+   
+}
+.p-02 {
+    text-align: center;
+}
+/*コンテンツ3　コンテンツ3　コンテンツ3*/
+.contents03 {
+    height: 200px;
+    width: 1280px;
+    margin-top: 150px;
+    margin-left: 525px;
+}
+
+
+
+.signup, .login {
+    border: 1px solid #2196F3;
+    height: 30px;
+    text-align: center;
+    padding: 10px 115px;
+    background-color: #03def4;
+    opacity: 0.6;
+}
+.signup {
+    margin-top: 100px;
+}
+.signup:hover, .login:hover {
+    
+    opacity: 0.9
+}
+.p-03 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin: 5px 110px;
+}
+.login {
+    margin-top: 10px;
+}
+
+/*コンテンツ4 コンテンツ4 コンテンツ4*/ 
+.contents-04 {
+    width: 1280px;
+    height: 900px;
+  
+}
+.h1-02 {
+    text-align: center;
+}
+.menu {
+    display: flex;
+    margin-left: 145px;
+}
+/*カレーライス*/
+.eat-01 {
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+} 
+.p-04 {
+    font-size: 20px;
+    flex: row;
+    display: inline;
+    margin-right: 50px;
+    margin-left: 145px;
+
+}
+.span-01 {
+color: rgb(255, 123, 71)
+}
+/*醤油ラーメン*/
+.eat-02 {
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+}
+.p-05 {
+    font-size: 20px;
+    display: inline;
+    margin-left: 23px;
+}
+.span-02 {
+    color: rgb(255, 123, 71)
+}
+
+/*魚介つけ麺*/
+.eat-03 {
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+}
+.p-06 {
+    font-size: 20px;
+    display: inline;
+    margin-left: 84px;
+}
+.span-03 {
+    color: rgb(255, 123, 71)
+}
+
+.money-class {
+    display: flex;
+    height: 50px;
+    
+}
+.money-01 {                        /*できない　 display: none;*/
+    font-size: 25px;
+    margin-left: 241px;
+    margin-top: 10px;
+    height: 30px;
+    
+}
+.money-02 {
+    font-size: 25px;
+    margin-left: 278px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.money-03 {
+    font-size: 25px;
+    margin-left: 276px;
+    margin-top: 10px;
+    height: 30px;
+  
+}
+
+
+
+
+.money-01:hover, .money-02:hover, .money-03:hover {
+    display: block;
+   
+}
+/*コンテンツ５　コンテンツ５　コンテンツ５*/
+.contents05 {
+    
+    height:600px;
+    
+}
+.access {
+    height: 500px;
+}
+.h1-03 {
+    text-align: center;
+}
+
+/*画像*/
+.img-access {
+    width: 450px;
+    height: 350px;
+    margin-bottom: 30px;
+    
+    
+    margin-left: 42px;
+}
+/*画像*/
+.img-table {
+    width: 1280px;
+    height: 500px;
+    
+    opacity: 0.3;
+   
+    position: relative;
+    bottom: 455px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin-left: 800px;
+    position: relative;
+    bottom: 822px;
+    right: 79px;
+   
+}
+th,td {
+    border: 1px solid black;
+}
+th {
+    color: #4CAF50;
+    padding: 0 20px;
+    width: 80px;
+}
+td {
+    padding: 6px 50px 6px 20px;
+}
+/*---------------------------フッター-------------------------------*/
+footer {
+    width: 1280px;
+    height: 50px;
+    background-color: gainsboro;
+    position: relative;
+    top: 1100px;
+}
+.p-07  {
+    text-align: center;
+    padding-top: 12px;
+
+/**/
+
+}
